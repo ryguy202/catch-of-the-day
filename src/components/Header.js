@@ -16,6 +16,7 @@ export class Header extends Component {
           <h3 className="tagline">
             <span>{this.props.tagline}</span>
           </h3>
+          Welcome to the {this.props.storeId} store!
         </header>
       </div>
     );

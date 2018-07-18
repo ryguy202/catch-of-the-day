@@ -14,7 +14,7 @@ export class Header extends Component {
             Day
           </h1>
           <h3 className="tagline">
-            <span>Fresh Daily</span>
+            <span>{this.props.tagline}</span>
           </h3>
         </header>
       </div>
